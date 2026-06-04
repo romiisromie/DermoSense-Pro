@@ -1,62 +1,62 @@
 # DermoSense Pro
 
-**Умный медицинский пластырь для сёл без врачей**
+**Smart Medical Patch for Rural Communities Without Physicians**
 
-DermoSense Pro — это система удалённого мониторинга здоровья для пожилых людей, проживающих в сельской местности, где нет стационарных врачей или фельдшерских пунктов.
+DermoSense Pro is a remote health monitoring system designed for elderly individuals residing in rural areas that lack permanent physicians or primary care facilities.
 
-## Проблема
+## Problem Statement
 
-В Казахстане более 350 сёл без врачей. Каждый пятый сельский житель старше 60 лет. Инфаркты, инсульты, падения и низкий уровень кислорода — главные причины смертности. Медсестра физически не может обойти всех пациентов ежедневно.
+Kazakhstan has over 350 rural settlements without a resident physician. One in five rural inhabitants is over the age of 60. Myocardial infarctions, strokes, falls, and hypoxemia constitute the leading causes of mortality. A visiting nurse is physically incapable of conducting daily rounds to check on every at-risk patient.
 
-## Решение
+## Solution
 
-DermoSense Pro — это тонкий медицинский пластырь (1.8 мм) с 6 датчиками:
+DermoSense Pro is an ultra-thin medical patch (1.8 mm) equipped with six embedded sensors:
 
-| Датчик | Параметр |
+| Sensor | Parameter |
 |--------|----------|
-| MAX30100 | Пульс, SpO₂ |
-| MPU6050 | Движение, падение |
-| Термодатчик | Температура тела |
-| GSR-датчик | Стресс, обезвоживание |
-| Датчик потоотделения | Лихорадка |
+| MAX30100 | Heart rate, SpO₂ |
+| MPU6050 | Motion, fall detection |
+| Temperature sensor | Body temperature |
+| GSR sensor | Stress, dehydration |
+| Sweat sensor | Febrile indicators |
 
-### Умные функции
+### Intelligent Features
 
-- **AI-прогноз температуры** — предсказывает повышение за 1.5 часа
-- **Детекция падения** — акселерометр + таймер неподвижности
-- **Анализ пульсовой волны** — раннее обнаружение аритмии
-- **Автономная работа** — 5–7 дней, беспроводная зарядка
-- **Водозащита IP67** — можно принимать душ
+- **AI-Powered Temperature Prediction** — forecasts a febrile episode up to 1.5 hours in advance
+- **Fall Detection** — accelerometer data coupled with an immobility timer
+- **Pulse Wave Analysis** — early detection of arrhythmia
+- **Autonomous Operation** — 5–7 days of continuous use, wireless charging
+- **IP67 Water Resistance** — safe for showering
 
-### Архитектура
-[Пластырь] → Bluetooth → [Телефон пациента] → Интернет → [Облако] → [Панель врача]
-→ [Приложение родственников]
+### System Architecture
+[Patch] → Bluetooth → [Patient's Smartphone] → Internet → [Cloud] → [Physician Dashboard] → [Family App]
 
 
-## Репозиторий
+## Repository
 
-В этом репозитории представлен веб-прототип панели врача и мобильного интерфейса.
+This repository contains a web-based prototype of the physician dashboard and the mobile interface.
 
-### Технологии
+### Technology Stack
 
 - HTML5 / CSS3 (Tailwind)
 - JavaScript (Vanilla)
-- Figma (дизайн-макеты)
+- Figma (design mockups)
 
-### Установка и запуск
+### Installation & Setup
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 ```bash
-git clone https://github.com/ваш-username/dermosense-pro.git
-Откройте index.html в любом браузере
-Или просто скачайте ZIP-архив и распакуйте.
+git clone https://github.com/your-username/dermosense-pro.git
+```
+2. Open `index.html` in any web browser.
+Alternatively, download the ZIP archive and extract it.
 
-### Структура
+### Project Structure
 
+```
 dermosense-pro/
-├── index.html          # Веб-панель врача + интерфейс пациента
-├── styles.css          # Стили (или встроены в HTML)
-├── script.js           # Логика переключения статусов, графики
+├── index.html          # Physician web dashboard + patient interface
+├── styles.css          # Stylesheet (or embedded within HTML)
+├── script.js           # Status toggling logic, charting
 └── README.md
-
-
+```
