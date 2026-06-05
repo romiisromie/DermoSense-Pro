@@ -1,62 +1,64 @@
 # DermoSense Pro
 
-**Smart Medical Patch for Rural Communities Without Physicians**
+**Smart Medical Patch for Villages Without Doctors**
 
-DermoSense Pro is a remote health monitoring system designed for elderly individuals residing in rural areas that lack permanent physicians or primary care facilities.
+DermoSense Pro is a remote health monitoring system for elderly residents of rural areas where there are no permanent doctors or paramedic stations.
 
-## Problem Statement
+## Problem
 
-Kazakhstan has over 350 rural settlements without a resident physician. One in five rural inhabitants is over the age of 60. Myocardial infarctions, strokes, falls, and hypoxemia constitute the leading causes of mortality. A visiting nurse is physically incapable of conducting daily rounds to check on every at-risk patient.
+In Kazakhstan, there are over 350 villages without doctors. One in five rural residents is over 60 years old. Heart attacks, strokes, falls, and low oxygen levels are the leading causes of death. A nurse cannot physically visit every patient on a daily basis.
 
 ## Solution
 
-DermoSense Pro is an ultra-thin medical patch (1.8 mm) equipped with six embedded sensors:
+DermoSense Pro is a thin medical patch (1.8 mm thick) equipped with 6 sensors:
 
 | Sensor | Parameter |
-|--------|----------|
+|--------|-----------|
 | MAX30100 | Heart rate, SpO₂ |
 | MPU6050 | Motion, fall detection |
 | Temperature sensor | Body temperature |
 | GSR sensor | Stress, dehydration |
-| Sweat sensor | Febrile indicators |
+| Sweat sensor | Fever |
 
-### Intelligent Features
+### Smart Features
 
-- **AI-Powered Temperature Prediction** — forecasts a febrile episode up to 1.5 hours in advance
-- **Fall Detection** — accelerometer data coupled with an immobility timer
-- **Pulse Wave Analysis** — early detection of arrhythmia
-- **Autonomous Operation** — 5–7 days of continuous use, wireless charging
-- **IP67 Water Resistance** — safe for showering
+- **AI-based temperature forecasting** — predicts fever onset 1.5 hours in advance
+- **Fall detection** — accelerometer + inactivity timer
+- **Pulse wave analysis** — early detection of arrhythmia
+- **Battery life** — 5–7 days, wireless charging
+- **IP67 water resistance** — shower-safe
 
-### System Architecture
-[Patch] → Bluetooth → [Patient's Smartphone] → Internet → [Cloud] → [Physician Dashboard] → [Family App]
+### Architecture
 
+`[Patch] → Bluetooth → [Patient's phone] → Internet → [Cloud] → [Doctor dashboard] → [Relatives app]`
 
 ## Repository
 
-This repository contains a web-based prototype of the physician dashboard and the mobile interface.
+This repository contains a web prototype of the doctor dashboard and mobile interface.
 
-### Technology Stack
+### Technologies
 
 - HTML5 / CSS3 (Tailwind)
 - JavaScript (Vanilla)
 - Figma (design mockups)
 
-### Installation & Setup
+### Installation and Setup
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/dermosense-pro.git
 ```
-2. Open `index.html` in any web browser.
-Alternatively, download the ZIP archive and extract it.
 
-### Project Structure
+2. Open `index.html` in any browser
+
+Alternatively, simply download the ZIP archive and extract it.
+
+### Structure
 
 ```
 dermosense-pro/
-├── index.html          # Physician web dashboard + patient interface
-├── styles.css          # Stylesheet (or embedded within HTML)
-├── script.js           # Status toggling logic, charting
+├── index.html          # Doctor dashboard + patient interface
+├── styles.css          # Styles (or embedded in HTML)
+├── script.js           # Status switching logic, graphs
 └── README.md
 ```
