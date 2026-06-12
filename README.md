@@ -62,5 +62,3 @@ dermosense-pro/
 ├── script.js           # Status switching logic, graphs
 └── README.md
 ```
-
-Co-authored-by: rkht111 <111953531+rkht111@://github.com>
