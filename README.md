@@ -63,4 +63,4 @@ dermosense-pro/
 └── README.md
 ```
 
-Co-authored-by: rkht111
+Co-authored-by: rkht111 <111953531+rkht111@://github.com>
