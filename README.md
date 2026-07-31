@@ -44,7 +44,7 @@ This repository contains a web prototype of the doctor dashboard and mobile inte
 
 ### Installation and Setup
 
-1. Clone the repository:
+1. Create and clone the repository:
 ```bash
 git clone https://github.com/romiisromie/DermoSense-Pro.git
 ```
