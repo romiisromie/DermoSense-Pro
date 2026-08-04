@@ -4,7 +4,7 @@
 
 DermoSense Pro is a remote health monitoring system for elderly residents of rural areas where there are no permanent doctors or paramedic stations.
 
-## Problem
+## Issue
 
 In Kazakhstan, there are over 350 villages without doctors. One in five rural residents is over 60 years old. Heart attacks, strokes, falls, and low oxygen levels are the leading causes of death. A nurse cannot physically visit every patient on a daily basis.
 
