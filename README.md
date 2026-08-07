@@ -28,7 +28,7 @@ DermoSense Pro is a thin medical patch (1.8 mm thick) equipped with 6 sensors:
 - **Battery life** — 5–7 days, wireless charging
 - **IP67 water resistance** — shower-safe
 
-### Architecture
+### Architecture of the product
 
 `[Patch] → Bluetooth → [Patient's phone] → Internet → [Cloud] → [Doctor dashboard] → [Relatives app]`
 
