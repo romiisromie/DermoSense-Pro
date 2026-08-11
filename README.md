@@ -51,7 +51,7 @@ git clone https://github.com/romiisromie/DermoSense-Pro.git
 
 2. Open `index.html` in any browser
 
-Alternatively, simply download the ZIP archive and extract it.
+Similarly, simply download the ZIP archive and extract it.
 
 ### Structure
 
