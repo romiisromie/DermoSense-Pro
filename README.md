@@ -10,7 +10,7 @@ In Kazakhstan, there are over 350 villages without doctors. One in five rural re
 
 ## Solution
 
-DermoSense Pro is a thin medical patch (1.8 mm thick) equipped with 6 sensors:
+DermoSense Pro is a thin mediсal patch (1.8 mm thick) equipped with 6 sensors:
 
 | Sensor | Parameter |
 |--------|-----------|
