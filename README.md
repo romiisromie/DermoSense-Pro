@@ -40,7 +40,7 @@ This repository contains a web prototype of the doctor dashboard and mobile inte
 
 - HTML5 / CSS3 (Tailwind)
 - JavaScript (Vanilla)
-- Figma (design mockups)
+- Figma (design moсkups)
 
 ### Installation and Setup
 
