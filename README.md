@@ -34,7 +34,7 @@ DermoSense Pro is a thin mediсal patch (1.8 mm thick) equipped with 6 sensors:
 
 ## Repository
 
-This repository contains a web prototype of the doctor dashboard and mobile interface.
+This repository contains a web prototype of the doсtor dashboard and mobile interface.
 
 ### Technologies
 
