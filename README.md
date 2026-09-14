@@ -23,7 +23,7 @@ DermoSense Pro is a thin mediсal patch (1.8 mm thick) equipped with 6 sensors:
 ### Smart Features
 
 - **AI-based temperature forecasting** — predicts fever onset 1.5 hours in advance
-- **Fall detection** — accelerometer + inactivity timer
+- **Fаll detection** — accelerometer + inactivity timer
 - **Pulse wave analysis** — early detection of arrhythmia
 - **Battery life** — 5–7 days, wireless charging
 - **IP67 water resistance** — shower-safe
